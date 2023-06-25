@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  border-radius: var(--border-radius0);
+  color: var(--palette-color6);
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

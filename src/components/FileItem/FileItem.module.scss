@@ -1,0 +1,45 @@
+.item_container {
+  width: 5.625rem;
+
+  color: var(--palette-color1);
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-radius: var(--border-radius0);
+  transition-duration: var(--transition-duration);
+  transition-property: box-shadow, opacity;
+
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--box-shadow-color3);
+  }
+
+  &:hover {
+    opacity: var(--on-hover-opacity);
+  }
+}
+
+.item {
+  svg {
+    color: var(--palette-color1);
+  }
+
+  & > *:first-child {
+    width: 100%;
+    height: 6rem;
+  }
+}
+
+.text {
+  color: var(--palette-color6);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

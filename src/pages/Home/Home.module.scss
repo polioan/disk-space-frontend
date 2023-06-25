@@ -1,0 +1,28 @@
+.main {
+  padding: var(--gap1);
+  display: flex;
+  gap: var(--gap1);
+  min-height: calc(100dvh - var(--header-size));
+  min-height: calc(100vh - var(--header-size));
+}
+
+.left_section {
+  min-width: 8.18rem;
+  width: 20vw;
+  max-width: 18.12rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap0);
+}
+
+.right_section {
+  padding: var(--gap0);
+  width: 100%;
+  box-shadow: var(--box-shadow-color3);
+  border-radius: var(--border-radius0);
+  position: relative;
+}
+
+.used_space {
+  margin-top: auto;
+}

@@ -1,0 +1,35 @@
+.line_container {
+  height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+  svg {
+    color: var(--background-color-darkest);
+    height: 2rem;
+  }
+}
+
+.path_part {
+  display: block;
+  color: var(--palette-color6);
+  border-radius: var(--border-radius0);
+  background-color: transparent;
+  border: none;
+  white-space: nowrap;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.path_part_container {
+  display: flex;
+}

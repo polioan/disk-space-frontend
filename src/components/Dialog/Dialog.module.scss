@@ -1,0 +1,21 @@
+.dialog {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dialog_panel {
+  padding: calc(var(--gap1) * 2);
+  box-shadow: var(--default-box-shadow);
+  background-color: var(--background-color-lighter);
+  border-radius: var(--border-radius0);
+}
+
+.title {
+  font-size: 1.1em;
+  font-weight: normal;
+  padding-bottom: var(--gap0);
+}

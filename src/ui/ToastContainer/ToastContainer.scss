@@ -1,0 +1,10 @@
+.Toastify__toast {
+  box-shadow: var(--default-box-shadow);
+  border-radius: var(--border-radius0);
+  margin-bottom: var(--gap1);
+  font-family: inherit;
+}
+
+.Toastify__progress-bar-theme--light {
+  background: var(--background-color-darker);
+}

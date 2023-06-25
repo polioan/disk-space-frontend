@@ -1,0 +1,32 @@
+.bar,
+.bar::before {
+  height: 1rem;
+  border-radius: var(--gap0);
+}
+
+.bar::after,
+.bar::before {
+  position: absolute;
+}
+
+.bar,
+.bar::after {
+  width: 100%;
+}
+
+.bar {
+  position: relative;
+  background-color: var(--background-color-darker);
+}
+
+.bar::before {
+  width: var(--progress);
+  content: '';
+  background-color: var(--palette-color6);
+}
+
+.bar::after {
+  content: attr(data-progress-in-bytes);
+  bottom: 1rem;
+  text-align: center;
+}

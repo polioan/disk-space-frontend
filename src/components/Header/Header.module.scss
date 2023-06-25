@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--background-color);
+
+  height: var(--header-size);
+  box-shadow: var(--default-box-shadow);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-right: var(--gap0);
+  padding-left: var(--gap0);
+
+  --header-child-size: 70%;
+}
+
+.logo {
+  height: var(--header-child-size);
+}
+
+.user {
+  height: var(--header-child-size);
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  gap: var(--gap1);
+
+  svg {
+    height: 80%;
+  }
+}

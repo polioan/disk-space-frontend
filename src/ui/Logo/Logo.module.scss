@@ -1,0 +1,19 @@
+.link {
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--box-shadow-color3);
+    border-radius: var(--border-radius1);
+  }
+}
+
+.img {
+  height: 100%;
+  transition-duration: var(--transition-duration);
+  transition-property: opacity, transform;
+
+  &:hover {
+    opacity: var(--on-hover-opacity);
+    transform: scale(1.05);
+  }
+}

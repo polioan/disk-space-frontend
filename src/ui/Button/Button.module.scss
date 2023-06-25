@@ -1,0 +1,28 @@
+.button {
+  padding: var(--gap0);
+  border-radius: var(--border-radius0);
+  border: var(--border-color3);
+  background-color: white;
+
+  transition-duration: var(--transition-duration);
+  transition-property: opacity, box-shadow;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+    box-shadow: var(--box-shadow-color3);
+  }
+
+  &:hover {
+    opacity: var(--on-hover-opacity);
+  }
+}
+
+.hovered {
+  opacity: var(--on-hover-opacity);
+}
+
+.focused {
+  outline: none;
+  box-shadow: var(--box-shadow-color3);
+}

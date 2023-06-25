@@ -1,0 +1,14 @@
+.transition_enter {
+  transition-property: opacity, transform;
+  transition-duration: var(--transition-duration);
+}
+
+.transition_from {
+  opacity: 0.1;
+  transform: scale(0.1);
+}
+
+.transition_to {
+  opacity: 1;
+  transform: scale(1);
+}

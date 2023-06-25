@@ -1,0 +1,16 @@
+.content {
+  overflow: hidden;
+  padding: var(--gap1);
+  box-shadow: var(--default-box-shadow);
+  background-color: var(--background-color-lighter);
+  border-radius: var(--border-radius0);
+  z-index: var(--z-high);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap0);
+}
+
+.item {
+  position: relative;
+}

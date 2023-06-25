@@ -1,0 +1,35 @@
+:root {
+  --palette-color1: #c1cad6;
+  --palette-color2: #d4adcf;
+  --palette-color3: #f26a8d;
+  --palette-color4: #f49cbb;
+  --palette-color5: #cbeef3;
+  --palette-color6: #830b29;
+
+  --default-box-shadow: rgba(0, 0, 0, 0.15) 0.1219rem 0.1219rem 0.1625rem;
+
+  --box-shadow-color3: 0px 0px 0px 1px var(--palette-color3);
+  --border-color3: 1px solid var(--palette-color3);
+
+  --border-radius1: 0.555rem;
+  --border-radius0: calc(var(--border-radius1) / 2);
+
+  --background-color: hsl(215, 30%, 92%);
+
+  --background-color-lighter: hsl(215, 30%, 95%);
+
+  --background-color-darker: hsl(215, 30%, 89%);
+  --background-color-darkest: hsl(215, 30%, 59%);
+
+  --header-size: 4rem;
+
+  --gap1: 1rem;
+  --gap0: 0.5em;
+
+  --transition-duration: 0.3s;
+  --transition-duration0: calc(var(--transition-duration) / 2);
+
+  --on-hover-opacity: 0.5;
+
+  --z-high: 2;
+}

@@ -1,0 +1,12 @@
+.popup {
+  & [role='menu'] {
+    width: 100%;
+  }
+}
+
+.dialog_form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap0);
+}
